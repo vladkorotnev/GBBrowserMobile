@@ -27,7 +27,7 @@
 #import <MessageUI/MessageUI.h>
 #import "EGOPhotoSource.h"
 #import "EGOPhotoGlobal.h"
-
+#import <Twitter/Twitter.h>
 @class EGOPhotoImageView, EGOPhotoCaptionView;
 @interface EGOPhotoViewController : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate> {
     NSInteger _pageIndex;

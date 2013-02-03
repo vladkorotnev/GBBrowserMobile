@@ -949,6 +949,47 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
 	[[UIPasteboard generalPasteboard] setString:link];
 	
 }
+- (void)tweetPhoto{
+	if ([TWTweetComposeViewController class]!=nil) {
+        NSString *link = [[[self.photoSource photoAtIndex:_pageIndex]boardlink]lowercaseString];
+        
+        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
+        [twitter setInitialText:link];//optional
+        [twitter addImage:(((EGOPhotoImageView*)[self.photoViews objectAtIndex:_pageIndex]).imageView.image)];
+        
+        if([TWTweetComposeViewController canSendTweet]){
+            [self presentViewController:twitter animated:YES completion:nil];
+        } else {
+            UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Unable to tweet"
+                                                                message:@"You might be in Airplane Mode or not have service. Try again later."
+                                                               delegate:self cancelButtonTitle:@"OK"
+                                                      otherButtonTitles:nil];
+            [alertView show];
+            return;
+        }
+        
+        
+        twitter.completionHandler = ^(TWTweetComposeViewControllerResult res) {
+            if (TWTweetComposeViewControllerResultDone) {
+                UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Tweeted"
+                                                                    message:@"You successfully tweeted"
+                                                                   delegate:self cancelButtonTitle:@"OK"
+                                                          otherButtonTitles:nil];
+                [alertView show];
+            } else if (TWTweetComposeViewControllerResultCancelled) {
+                UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Ooops..."
+                                                                    message:@"Something went wrong, try again later"
+                                                                   delegate:self
+                                                          cancelButtonTitle:@"OK"
+                                                          otherButtonTitles:nil];
+                [alertView show];
+            }
+            [self dismissModalViewControllerAnimated:YES];
+        };
+    } else [[[UIAlertView alloc]initWithTitle:@"Woops" message:@"Your iOS version is lower than 5.0" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil]show];
+
+	
+}
 
 - (void)emailPhoto{
 	
@@ -996,26 +1037,37 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
 
 - (void)actionButtonHit:(id)sender{
 	
+    if ([UIActivityViewController class]!=nil) {
+        NSString *link = [[[self.photoSource photoAtIndex:_pageIndex]boardlink]lowercaseString];
+        UIImage *picc = ((EGOPhotoImageView*)[self.photoViews objectAtIndex:_pageIndex]).imageView.image;
+        NSArray* dataToShare = @[picc,link];  // ...or whatever pieces of data you want to share.
+        
+        UIActivityViewController* activityViewController =
+        [[UIActivityViewController alloc] initWithActivityItems:dataToShare
+                                          applicationActivities:nil];
+        [self presentViewController:activityViewController animated:YES completion:^{}];
+        return;
+    }
 	UIActionSheet *actionSheet;
 	
 	if ([MFMailComposeViewController canSendMail]) {
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 30200
 		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && !_popover) {
-			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", @"Email", nil];
+			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link",@"Tweet", @"Email", nil];
 		} else {
-			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", @"Email", nil];
+			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link",@"Tweet", @"Email", nil];
 		}
 #else
-		actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", @"Email", nil];
+		actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link",@"Tweet", @"Email", nil];
 #endif
 		
 	} else {
 		
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 30200
 		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && !_popover) {
-			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", nil];
+			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link",@"Tweet", nil];
 		} else {
-			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", nil];
+			actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link",@"Tweet", nil];
 		}
 #else
 		actionSheet = [[UIActionSheet alloc] initWithTitle:@"" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save", @"Copy",@"Copy Link", nil];
@@ -1046,7 +1098,9 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
     } else if (buttonIndex == actionSheet.firstOtherButtonIndex + 2) {
 		[self copyLink];
 	} else if (buttonIndex == actionSheet.firstOtherButtonIndex + 3) {
-		[self emailPhoto];	
+		[self tweetPhoto];
+	}else if (buttonIndex == actionSheet.firstOtherButtonIndex + 4) {
+		[self emailPhoto];
 	}
 }
 

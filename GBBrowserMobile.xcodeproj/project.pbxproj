@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8222BC9A16BE69F6000ADA77 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8222BC9916BE69F6000ADA77 /* Twitter.framework */; };
 		8231E9CC16BE25EF00C5CA04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231E9CB16BE25EF00C5CA04 /* UIKit.framework */; };
 		8231E9CE16BE25EF00C5CA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231E9CD16BE25EF00C5CA04 /* Foundation.framework */; };
 		8231E9D016BE25EF00C5CA04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231E9CF16BE25EF00C5CA04 /* CoreGraphics.framework */; };
@@ -58,6 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8222BC9916BE69F6000ADA77 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		8231E9C816BE25EF00C5CA04 /* GBBrowserMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBBrowserMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8231E9CB16BE25EF00C5CA04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8231E9CD16BE25EF00C5CA04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8222BC9A16BE69F6000ADA77 /* Twitter.framework in Frameworks */,
 				8231EA6016BE55AE00C5CA04 /* AssetsLibrary.framework in Frameworks */,
 				8231EA4616BE411600C5CA04 /* MessageUI.framework in Frameworks */,
 				8231EA4416BE411100C5CA04 /* QuartzCore.framework in Frameworks */,
@@ -149,6 +152,7 @@
 		8231E9BF16BE25EF00C5CA04 = {
 			isa = PBXGroup;
 			children = (
+				8222BC9916BE69F6000ADA77 /* Twitter.framework */,
 				8231EA5F16BE55AE00C5CA04 /* AssetsLibrary.framework */,
 				8231EA5B16BE53C700C5CA04 /* Icon.png */,
 				8231EA5716BE539D00C5CA04 /* Icon@2x.png */,
@@ -581,6 +585,7 @@
 				8231E9ED16BE25EF00C5CA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
