@@ -24,6 +24,6 @@
 - (id)initWithImageURL:(NSURL*)aURL name:(NSString*)aName image:(UIImage*)aImage;
 - (id)initWithImageURL:(NSURL*)aURL name:(NSString*)aName;
 - (id)initWithImageURL:(NSURL*)aURL;
-- (id)initWithImageURL:(NSURL*)aURL boardLink:(NSString*)link;
+- (id)initWithImageURL:(NSURL*)aURL boardLink:(NSString*)link tags:(NSArray*)tags;
 - (id)initWithImage:(UIImage*)aImage;
 @end

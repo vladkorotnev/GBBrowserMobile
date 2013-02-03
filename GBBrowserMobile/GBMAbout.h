@@ -11,5 +11,7 @@
 @interface GBMAbout : UIViewController
 - (IBAction)end:(id)sender;
 @property (retain, nonatomic) IBOutlet UIImageView *icon;
+@property (retain, nonatomic) IBOutlet UISwitch *shouldPaginate;
+- (IBAction)paginatorChanged:(id)sender;
 
 @end

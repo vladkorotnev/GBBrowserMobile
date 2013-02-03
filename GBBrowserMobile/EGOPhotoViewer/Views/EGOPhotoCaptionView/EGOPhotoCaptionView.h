@@ -27,7 +27,7 @@
 
 @interface EGOPhotoCaptionView : UIView {
 @private
-	UILabel *_textLabel;
+	UITextView *_textLabel;
 	BOOL _hidden;
 
 }

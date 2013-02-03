@@ -1044,7 +1044,7 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
         
         UIActivityViewController* activityViewController =
         [[UIActivityViewController alloc] initWithActivityItems:dataToShare
-                                          applicationActivities:nil];
+                                          applicationActivities:@[[GBMSaveToItunesActivity new],[GBMOpenAsURLActivity new]]];
         [self presentViewController:activityViewController animated:YES completion:^{}];
         return;
     }

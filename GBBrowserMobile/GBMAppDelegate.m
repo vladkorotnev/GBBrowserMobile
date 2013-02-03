@@ -19,6 +19,71 @@
     [super dealloc];
 }
 
+- (void) handleCrashReport {
+    PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
+    NSData *crashData;
+    NSError *error;
+    
+    // Try loading the crash report
+    crashData = [crashReporter loadPendingCrashReportDataAndReturnError: &error];
+    if (crashData == nil) {
+        NSLog(@"Could not load crash report: %@", error);
+        goto finish;
+    }
+    
+    // We could send the report from here, but we'll just print out
+    // some debugging info instead
+    report = crashData ;
+    [report retain];
+    if (report == nil) {
+        NSLog(@"Could not parse crash report");
+        goto finish;
+    }
+    [[[UIAlertView alloc]initWithTitle:@"Bummer!" message:@"It seems GBBrowser has crashed. Would you like to report this crash?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil]show];
+
+    
+    // Purge the report
+finish:
+    [crashReporter purgePendingCrashReport];
+    return;
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error{
+	
+	[self.window.rootViewController dismissModalViewControllerAnimated:YES];
+	
+	NSString *mailError = nil;
+	
+	switch (result) {
+		case MFMailComposeResultSent: ; break;
+		case MFMailComposeResultFailed: mailError = @"Failed sending mail, please try again...";
+			break;
+		default:
+			break;
+	}
+	
+	if (mailError != nil) {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error sending mail" message:[NSString stringWithFormat:@"%@ -- %@",mailError,error.localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+	
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if ([alertView.title isEqualToString:@"Bummer!"]&&(alertView.cancelButtonIndex != buttonIndex)) {
+        
+        MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
+        [mailViewController setSubject:@"GBBrowser Crash Report"];
+        mailViewController.mailComposeDelegate = self;
+        NSString*developer= [[EncryptionModule new]decryptString:@"wmbelpspuofwAhnbjm/dpn" withOffset:1]; // i am paranoid lol
+        [mailViewController setToRecipients:@[developer]];
+        [mailViewController addAttachmentData:report mimeType:@"application/x-octet-stream" fileName:@"report.plreport"];
+        [mailViewController setMessageBody:@"Please describe what did you do prior to crash:" isHTML:false];
+        [[[UIAlertView alloc]initWithTitle:@"Important" message:@"Please describe what did you do prior to crash, DON'T send the mail as is!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
+        [self.window.rootViewController presentModalViewController:mailViewController animated:YES];
+        [mailViewController release];
+    }
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -26,6 +91,16 @@
     self.viewController = [[[GBMViewController alloc] initWithNibName:@"GBMViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
+    NSError *error;
+    
+    // Check if we previously crashed
+    if ([crashReporter hasPendingCrashReport])
+        [self handleCrashReport];
+    
+    // Enable the Crash Reporter
+    if (![crashReporter enableCrashReporterAndReturnError: &error])
+        NSLog(@"Warning: Could not enable crash reporter: %@", error);
     return YES;
 }
 

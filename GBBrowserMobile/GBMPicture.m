@@ -13,10 +13,12 @@
     thumbnailImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:self.thumbnailURL]];
     [thumbnailImage retain];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    if([self respondsToSelector:@selector(_delegateInformGotthumb)])
     [self performSelectorOnMainThread:@selector(_delegateInformGotthumb) withObject:nil waitUntilDone:false];
 }
 -(void)_delegateInformGotthumb{
-    if([self.delegate respondsToSelector:@selector(picture:thumbnailBecameAvailable:)])
+    if(self.delegate != nil)
+     if([self.delegate respondsToSelector:@selector(picture:thumbnailBecameAvailable:)])
         [self.delegate picture:self thumbnailBecameAvailable:thumbnailImage];
 }
 -(void)_downloadSample{

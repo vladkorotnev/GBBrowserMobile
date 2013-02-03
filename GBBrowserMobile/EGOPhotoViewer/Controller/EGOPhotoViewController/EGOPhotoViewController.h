@@ -27,6 +27,8 @@
 #import <MessageUI/MessageUI.h>
 #import "EGOPhotoSource.h"
 #import "EGOPhotoGlobal.h"
+#import "GBMSaveToItunesActivity.h"
+#import "GBMOpenAsURLActivity.h"
 #import <Twitter/Twitter.h>
 @class EGOPhotoImageView, EGOPhotoCaptionView;
 @interface EGOPhotoViewController : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate> {

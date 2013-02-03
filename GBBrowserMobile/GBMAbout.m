@@ -7,9 +7,7 @@
 //
 
 #import "GBMAbout.h"
-@interface UIImage (privateAPI)
--(UIImage*)_applicationIconImageForFormat:(int)format precomposed:(BOOL)precomposed;
-@end
+
 
 @interface GBMAbout ()
 
@@ -32,7 +30,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 -(void)viewWillAppear:(BOOL)animated {
-    
+    self.shouldPaginate.on =  [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,9 +41,14 @@
 
 - (void)dealloc {
     [_icon release];
+    [_shouldPaginate release];
     [super dealloc];
 }
 - (IBAction)end:(id)sender {
     [self dismissViewControllerAnimated:true completion:nil];
+}
+- (IBAction)paginatorChanged:(id)sender {
+    [[NSUserDefaults standardUserDefaults]setBool:self.shouldPaginate.on forKey:@"paginate"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
 }
 @end

@@ -40,10 +40,16 @@
 - (id)initWithImage:(UIImage*)aImage{
 	return [self initWithImageURL:nil name:nil image:aImage];
 }
-- (id)initWithImageURL:(NSURL*)aURL boardLink:(NSString*)link {
+- (id)initWithImageURL:(NSURL*)aURL boardLink:(NSString*)link tags:(NSArray*)tags {
     [self initWithImageURL:aURL name:nil image:nil];
     [self setBoardlink:link];
     [self.boardlink retain];
+    NSString*t= @"";
+    for (NSString*tag in tags) {
+        t = [t stringByAppendingFormat:@" %@",tag];
+    }
+    _caption = t;
+    [_caption retain];
     return self;
 }
 - (void)dealloc{

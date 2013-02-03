@@ -23,7 +23,7 @@
      [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     NSLog(@"Trying to load");
     currentPid = 0;
-
+ self.countoftotal.title=@"Loading...";
     [currentPictures removeAllObjects];
     [self.collection reloadData];
     NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString],currentPid ];
@@ -63,7 +63,7 @@
 
 -(void)parserDidStartDocument:(NSXMLParser *)parser {
     NSLog(@"Start");
-   
+  
 }
 
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
@@ -138,7 +138,7 @@
 
 - (void) loadMorePics {
     NSLog(@"Trying to load more");
-
+ self.countoftotal.title=@"Loading...";
     currentPid = currentPid + 1;
     if (currentPid * 100 >= totalPosts) {
         NSLog(@"End!");
@@ -210,7 +210,8 @@
     [self loadPics];
 }
 -(void)viewDidAppear:(BOOL)animated {
-    
+    self.collection.pagingEnabled = [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
+  // [[[NSArray alloc]init]addObject:@"a"];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -255,7 +256,7 @@
     NSLog(@"Select");
     NSMutableArray*samples = [NSMutableArray new];
     for (GBMPicture*pic in currentPictures) {
-        MyPhoto*p = [[MyPhoto alloc]initWithImageURL:pic.sampleURL boardLink:[NSString stringWithFormat:@"http://%@/index.php?page=post&s=view&id=%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"],pic.ident]];
+        MyPhoto*p = [[MyPhoto alloc]initWithImageURL:pic.sampleURL boardLink:pic.fullURL.absoluteString tags:pic.tags];//[NSString stringWithFormat:@"http://%@/index.php?page=post&s=view&id=%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"],pic.ident]];
         [samples addObject:p];
     }
    
@@ -283,6 +284,7 @@
     [super dealloc];
 }
 - (IBAction)loadMore:(id)sender {
+    self.countoftotal.title=@"Loading...";
     [self performSelector:@selector(loadMorePics) withObject:nil afterDelay:0.1];
 }
 
