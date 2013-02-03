@@ -44,7 +44,7 @@
     NSLog(@"URL %@",url.absoluteString);
     // this is the parsing machine
     NSXMLParser *xmlparser = [[NSXMLParser alloc] initWithContentsOfURL:url];
-    
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     // this class will handle the events
     [xmlparser setDelegate:self];
     [xmlparser setShouldResolveExternalEntities:NO];
@@ -69,7 +69,7 @@
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
     NSLog(@"End");
     self.countoftotal.title = [NSString stringWithFormat:@"%i of %i",currentPictures.count,totalPosts];
-   
+    [self.collection reloadData];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
