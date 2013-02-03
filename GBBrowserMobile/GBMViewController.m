@@ -69,7 +69,7 @@
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
     NSLog(@"End");
     self.countoftotal.title = [NSString stringWithFormat:@"%i of %i",currentPictures.count,totalPosts];
-    [self.collection reloadData];
+   
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 }
 
@@ -161,7 +161,8 @@
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
     self.disableView.alpha = 0;
     [self.collection addSubview:self.disableView];
-	
+    [currentPictures removeAllObjects];
+    [self.collection reloadData];
     [UIView beginAnimations:@"FadeIn" context:nil];
     [UIView setAnimationDuration:0.4];
     self.disableView.alpha = 0.6;
@@ -183,7 +184,7 @@
     [searchBar setShowsCancelButton:NO animated:YES];
     [searchBar resignFirstResponder];
     isInSearch = YES;
-    curSearchRequest = [searchBar.text stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+    curSearchRequest = [[searchBar.text stringByReplacingOccurrencesOfString:@" " withString:@"_"]lowercaseString];
     [curSearchRequest retain];
  [self.disableView removeFromSuperview];
     [self performSelector:@selector(loadPics) withObject:nil afterDelay:0.6];
