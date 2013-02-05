@@ -198,7 +198,8 @@
     }
     
     if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
-        [self.hints setFrame:CGRectMake(0, 0, self.collection.frame.size.width, self.collection.frame.size.height)];
+        [self.hints setFrame:CGRectMake(0, 67, self.collection.frame.size.width, self.collection.frame.size.height-107)];
+        [self.bottomBar setBarStyle:UIBarStyleBlackOpaque];
         [self.collection addSubview:self.hints];
     }
     UINib *cellNib = [UINib nibWithNibName:@"PictureCell" bundle:nil];
@@ -212,6 +213,10 @@
 -(void)viewDidAppear:(BOOL)animated {
     self.collection.pagingEnabled = [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
   // [[[NSArray alloc]init]addObject:@"a"];
+    if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
+ 
+        [[[UIActionSheet alloc]initWithTitle:@"Welcome to GBBrowser mobile!\n© vladkorotnev, 2013\n\nWarning! To use this app, you must be 18+ years old. Do you agree?\n\nPlease note that vladkorotnev does NOT manage the pictures that are displayed in this application!" delegate:self cancelButtonTitle:@"I agree" destructiveButtonTitle:@"I DON'T agree" otherButtonTitles:nil]showInView:self.view];
+    }
 }
 - (void)didReceiveMemoryWarning
 {
@@ -220,9 +225,9 @@
 }
 
 - (IBAction)serverChoose:(id)sender {
-       UIActionSheet*a= [[UIActionSheet alloc]initWithTitle:[NSString stringWithFormat:@"Active: %@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]] delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Gelbooru.com",@"Safebooru.org",@"Xbooru.com",nil];
-    [a setTag:1999];
-    [a showFromBarButtonItem:sender animated:true];
+       UIActionSheet*ac= [[UIActionSheet alloc]initWithTitle:[NSString stringWithFormat:@"Active: %@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]] delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Gelbooru.com",@"Safebooru.org",@"Xbooru.com",nil];
+    [ac setTag:1999];
+    [ac showFromBarButtonItem:sender animated:true];
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     if(actionSheet.tag == 1999 && (buttonIndex != actionSheet.cancelButtonIndex)) {
@@ -230,8 +235,19 @@
          [[NSUserDefaults standardUserDefaults]synchronize];
         [self loadPics];
     }
+    if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
+        exit(0);
+    }
+    if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
+        a = [[UIActionSheet alloc]initWithTitle:@"Thanks for using GBBrowser mobile!\nIf you like it, please donate using the donate button in the About window :)\n\nTo dismiss the hints view, tap it once, it will not appear again (as well as these messages)" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+        [a retain];
+        [a showInView:self.view];
+        [self performSelector:@selector(_welcomed) withObject:nil afterDelay:3];
+    }
 }
-
+-(void)_welcomed {
+    [a dismissWithClickedButtonIndex:111 animated:TRUE];
+}
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *cellIdentifier = @"PictureCell";
@@ -281,6 +297,7 @@
     [_disableView release];
     [_countoftotal release];
     [_hints release];
+    [_bottomBar release];
     [super dealloc];
 }
 - (IBAction)loadMore:(id)sender {
@@ -296,8 +313,14 @@
     [UIView beginAnimations:@"FadeOut" context:nil];
     [UIView setAnimationDuration:0.4];
     self.hints.alpha = 0;
+    [self.bottomBar setBarStyle:UIBarStyleBlackTranslucent];
     [UIView commitAnimations];
     [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"NotFirstLaunch"];
     [self.hints performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:0.5];
+  
+}
+- (void)viewDidUnload {
+    [self setBottomBar:nil];
+    [super viewDidUnload];
 }
 @end

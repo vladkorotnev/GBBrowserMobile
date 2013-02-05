@@ -13,5 +13,6 @@
 @property (retain, nonatomic) IBOutlet UIImageView *icon;
 @property (retain, nonatomic) IBOutlet UISwitch *shouldPaginate;
 - (IBAction)paginatorChanged:(id)sender;
+- (IBAction)performDonate:(id)sender;
 
 @end

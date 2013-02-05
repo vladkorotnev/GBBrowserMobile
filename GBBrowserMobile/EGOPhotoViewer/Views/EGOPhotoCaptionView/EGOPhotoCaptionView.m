@@ -41,6 +41,7 @@
 		_textLabel.backgroundColor = [UIColor clearColor];
 		_textLabel.textAlignment = UITextAlignmentCenter;
 		_textLabel.textColor = [UIColor whiteColor];
+        _textLabel.editable = NO;
 		//_textLabel.shadowColor = [UIColor blackColor];
 		//_textLabel.shadowOffset = CGSizeMake(0.0f, 1.0f);
 		[self addSubview:_textLabel];

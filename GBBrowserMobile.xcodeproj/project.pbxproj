@@ -61,11 +61,10 @@
 		8231EA4F16BE4DA500C5CA04 /* hints.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA4E16BE4DA400C5CA04 /* hints.png */; };
 		8231EA5316BE502D00C5CA04 /* GBMAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8231EA5116BE502C00C5CA04 /* GBMAbout.m */; };
 		8231EA5416BE502D00C5CA04 /* GBMAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA5216BE502D00C5CA04 /* GBMAbout.xib */; };
-		8231EA5616BE539200C5CA04 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA5516BE539100C5CA04 /* Icon@2x.png */; };
-		8231EA5816BE539E00C5CA04 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA5716BE539D00C5CA04 /* Icon@2x.png */; };
-		8231EA5A16BE53BB00C5CA04 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA5916BE53BB00C5CA04 /* Icon.png */; };
-		8231EA5C16BE53C700C5CA04 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA5B16BE53C700C5CA04 /* Icon.png */; };
 		8231EA6016BE55AE00C5CA04 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231EA5F16BE55AE00C5CA04 /* AssetsLibrary.framework */; };
+		82AD378516C0F83C00BE02EA /* btn_donate_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82AD378416C0F83C00BE02EA /* btn_donate_LG.gif */; };
+		82AD378D16C0FC8000BE02EA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AD378C16C0FC8000BE02EA /* Icon.png */; };
+		82AD378F16C0FC8300BE02EA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AD378E16C0FC8300BE02EA /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,11 +148,10 @@
 		8231EA5016BE502C00C5CA04 /* GBMAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMAbout.h; sourceTree = "<group>"; };
 		8231EA5116BE502C00C5CA04 /* GBMAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMAbout.m; sourceTree = "<group>"; };
 		8231EA5216BE502D00C5CA04 /* GBMAbout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBMAbout.xib; sourceTree = "<group>"; };
-		8231EA5516BE539100C5CA04 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		8231EA5716BE539D00C5CA04 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		8231EA5916BE53BB00C5CA04 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		8231EA5B16BE53C700C5CA04 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		8231EA5F16BE55AE00C5CA04 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		82AD378416C0F83C00BE02EA /* btn_donate_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donate_LG.gif; sourceTree = "<group>"; };
+		82AD378C16C0FC8000BE02EA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		82AD378E16C0FC8300BE02EA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,11 +176,8 @@
 		8206AAB116BEAEE800543D25 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8231EA5B16BE53C700C5CA04 /* Icon.png */,
-				8231EA5716BE539D00C5CA04 /* Icon@2x.png */,
-				8231EA5516BE539100C5CA04 /* Icon@2x.png */,
+				82AD378416C0F83C00BE02EA /* btn_donate_LG.gif */,
 				8231EA4C16BE479F00C5CA04 /* placehold.png */,
-				8231EA5916BE53BB00C5CA04 /* Icon.png */,
 				8231E9F916BE32E800C5CA04 /* test.jpg */,
 				8206AAA216BEAB9400543D25 /* itunes.png */,
 				8206AAA316BEAB9400543D25 /* itunes@2x.png */,
@@ -250,6 +245,8 @@
 		8231E9BF16BE25EF00C5CA04 = {
 			isa = PBXGroup;
 			children = (
+				82AD378E16C0FC8300BE02EA /* Icon@2x.png */,
+				82AD378C16C0FC8000BE02EA /* Icon.png */,
 				8231E9D116BE25EF00C5CA04 /* GBBrowserMobile */,
 				8231E9CA16BE25EF00C5CA04 /* Frameworks */,
 				8231E9C916BE25EF00C5CA04 /* Products */,
@@ -523,14 +520,13 @@
 				8231EA4D16BE47A000C5CA04 /* placehold.png in Resources */,
 				8231EA4F16BE4DA500C5CA04 /* hints.png in Resources */,
 				8231EA5416BE502D00C5CA04 /* GBMAbout.xib in Resources */,
-				8231EA5616BE539200C5CA04 /* Icon@2x.png in Resources */,
-				8231EA5816BE539E00C5CA04 /* Icon@2x.png in Resources */,
-				8231EA5A16BE53BB00C5CA04 /* Icon.png in Resources */,
-				8231EA5C16BE53C700C5CA04 /* Icon.png in Resources */,
 				8206AAA416BEAB9400543D25 /* itunes.png in Resources */,
 				8206AAA516BEAB9400543D25 /* itunes@2x.png in Resources */,
 				8206AAAD16BEADBB00543D25 /* browse.png in Resources */,
 				8206AAAF16BEADBE00543D25 /* browse@2x.png in Resources */,
+				82AD378516C0F83C00BE02EA /* btn_donate_LG.gif in Resources */,
+				82AD378D16C0FC8000BE02EA /* Icon.png in Resources */,
+				82AD378F16C0FC8300BE02EA /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,39 +608,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		8231E9EA16BE25EF00C5CA04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		8231E9EC16BE25EF00C5CA04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sam Guichelaar (572CRJVFQ9)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -654,25 +627,10 @@
 				INFOPLIST_FILE = "GBBrowserMobile/GBBrowserMobile-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "717FD4F3-C5AA-428E-BC10-554B61CA11E3";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
-		};
-		8231E9ED16BE25EF00C5CA04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GBBrowserMobile/GBBrowserMobile-Prefix.pch";
-				INFOPLIST_FILE = "GBBrowserMobile/GBBrowserMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -681,19 +639,17 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8231E9E916BE25EF00C5CA04 /* Debug */,
-				8231E9EA16BE25EF00C5CA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8231E9EB16BE25EF00C5CA04 /* Build configuration list for PBXNativeTarget "GBBrowserMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8231E9EC16BE25EF00C5CA04 /* Debug */,
-				8231E9ED16BE25EF00C5CA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

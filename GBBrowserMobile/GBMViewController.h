@@ -14,7 +14,7 @@
     NSInteger currentPid;
     bool isInSearch;
       NSInteger totalPosts;
-   
+    UIActionSheet * a;
     NSMutableArray *currentPictures;
     NSString*curSearchRequest;
 }
@@ -28,5 +28,6 @@
 @property (retain, nonatomic) IBOutlet UIBarButtonItem *countoftotal;
 - (IBAction)loadMore:(id)sender;
 - (IBAction)about:(id)sender;
+@property (retain, nonatomic) IBOutlet UIToolbar *bottomBar;
 
 @end

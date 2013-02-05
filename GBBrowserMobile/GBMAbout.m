@@ -51,4 +51,8 @@
     [[NSUserDefaults standardUserDefaults]setBool:self.shouldPaginate.on forKey:@"paginate"];
     [[NSUserDefaults standardUserDefaults]synchronize];
 }
+
+- (IBAction)performDonate:(id)sender {
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UZJVMLC4SR4Z8"]];
+}
 @end

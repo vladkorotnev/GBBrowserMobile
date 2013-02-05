@@ -16,7 +16,10 @@
 			<array>
 				<string>Icon@2x.png</string>
 				<string>Icon.png</string>
+				<string>ecb721db5f49df162b6c72082e29a35d.png</string>
 			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
@@ -36,6 +39,8 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

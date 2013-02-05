@@ -1,0 +1,8 @@
+Package: com.vladkorotnev.gbbrowser
+Name: GBBrowser Mobile
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Gelbooru-based imageboard viewer
+Maintainer: Vladislav Korotnev
+Author: Vladislav Korotnev
+Section: Multimedia

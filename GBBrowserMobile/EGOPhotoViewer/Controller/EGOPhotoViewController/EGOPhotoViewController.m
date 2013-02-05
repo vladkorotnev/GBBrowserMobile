@@ -1042,9 +1042,12 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
         UIImage *picc = ((EGOPhotoImageView*)[self.photoViews objectAtIndex:_pageIndex]).imageView.image;
         NSArray* dataToShare = @[picc,link];  // ...or whatever pieces of data you want to share.
         
-        UIActivityViewController* activityViewController =
-        [[UIActivityViewController alloc] initWithActivityItems:dataToShare
-                                          applicationActivities:@[[GBMSaveToItunesActivity new],[GBMOpenAsURLActivity new]]];
+        UIActivityViewController* activityViewController;
+       // if(!isFromCydia){
+         //   activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new],[GBMSaveToItunesActivity new]]];
+        //} else {
+            activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new]]];
+      //  }
         [self presentViewController:activityViewController animated:YES completion:^{}];
         return;
     }
