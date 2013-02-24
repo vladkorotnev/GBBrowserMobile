@@ -1044,9 +1044,9 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
         
         UIActivityViewController* activityViewController;
        // if(!isFromCydia){
-         //   activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new],[GBMSaveToItunesActivity new]]];
+           activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new],[GBMSaveToItunesActivity new]]];
         //} else {
-            activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new]]];
+            //activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new]]];
       //  }
         [self presentViewController:activityViewController animated:YES completion:^{}];
         return;

@@ -52,7 +52,7 @@
     // now parse the document
     BOOL ok = [xmlparser parse];
     if (ok == NO)
-        NSLog(@"Error");
+        self.countoftotal.title = @"Error loading.";
     else
         NSLog(@"OK");
     
@@ -145,8 +145,11 @@
         return;
     }
     
-
-    NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"],currentPid ];
+    NSString*serv;
+    if(![[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]hasPrefix:@"http://"] && ![[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]hasPrefix:@"https://"]){
+        serv  = [NSString stringWithFormat:@"http://%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]];
+    } else serv=[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"];
+    NSString * url = [NSString stringWithFormat:@"%@//index.php?page=dapi&s=post&q=index&pid=%i",serv,currentPid ];
     if(isInSearch) {
         
         url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
@@ -194,13 +197,14 @@
 {
     if ([[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]isEqualToString:@""] || [[NSUserDefaults standardUserDefaults]objectForKey:@"Server"] == nil) {
          [[NSUserDefaults standardUserDefaults]setObject:@"Safebooru.org" forKey:@"Server"];
+        [[NSUserDefaults standardUserDefaults]setObject:@[@"Safebooru.org",@"Gelbooru.org"] forKey:@"allservers"];
         [[NSUserDefaults standardUserDefaults]synchronize];
     }
     
     if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
-        [self.hints setFrame:CGRectMake(0, 67, self.collection.frame.size.width, self.collection.frame.size.height-107)];
+       // [self.hints setFrame:CGRectMake(0, 67, self.collection.frame.size.width, self.collection.frame.size.height-107)];
         [self.bottomBar setBarStyle:UIBarStyleBlackOpaque];
-        [self.collection addSubview:self.hints];
+       // [self.collection addSubview:self.hints];
     }
     UINib *cellNib = [UINib nibWithNibName:@"PictureCell" bundle:nil];
     [self.collection registerNib:cellNib forCellWithReuseIdentifier:@"PictureCell"];
@@ -214,8 +218,17 @@
     self.collection.pagingEnabled = [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
   // [[[NSArray alloc]init]addObject:@"a"];
     if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
- 
-        [[[UIActionSheet alloc]initWithTitle:@"Welcome to GBBrowser mobile!\n© vladkorotnev, 2013\n\nWarning! To use this app, you must be 18+ years old. Do you agree?\n\nPlease note that vladkorotnev does NOT manage the pictures that are displayed in this application!" delegate:self cancelButtonTitle:@"I agree" destructiveButtonTitle:@"I DON'T agree" otherButtonTitles:nil]showInView:self.view];
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+        {
+            [[[UIAlertView alloc]initWithTitle:@"Warning" message:@"We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I DON'T agree" otherButtonTitles:@"I agree", nil]show];
+            // The device is an iPad running iPhone 3.2 or later.
+        }
+        else
+        {
+            [[[UIActionSheet alloc]initWithTitle:@"Welcome to GBBrowser mobile!\n© vladkorotnev, 2013\n\nWarning! We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I agree" destructiveButtonTitle:@"I DON'T agree" otherButtonTitles:nil]showInView:self.view];
+            // The device is an iPhone or iPod touch.
+        }
+        
     }
 }
 - (void)didReceiveMemoryWarning
@@ -223,26 +236,49 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 - (IBAction)serverChoose:(id)sender {
-       UIActionSheet*ac= [[UIActionSheet alloc]initWithTitle:[NSString stringWithFormat:@"Active: %@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]] delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Gelbooru.com",@"Safebooru.org",@"Xbooru.com",nil];
+       UIActionSheet*ac= [[UIActionSheet alloc]init];
+    ac.title= [NSString stringWithFormat:@"Active: %@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]];
+    [ac setDelegate:self];
+    for (NSString*serv in (NSArray*)[[NSUserDefaults standardUserDefaults]objectForKey:@"allservers"]) {
+        [ac addButtonWithTitle:serv];
+    
+    }
+    ac.destructiveButtonIndex = [ac addButtonWithTitle:@"Edit servers"];
+    ac.cancelButtonIndex = [ac addButtonWithTitle:@"Cancel"];
     [ac setTag:1999];
     [ac showFromBarButtonItem:sender animated:true];
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     if(actionSheet.tag == 1999 && (buttonIndex != actionSheet.cancelButtonIndex)) {
-        [[NSUserDefaults standardUserDefaults]setObject:[actionSheet buttonTitleAtIndex:buttonIndex] forKey:@"Server"];
-         [[NSUserDefaults standardUserDefaults]synchronize];
-        [self loadPics];
+        if(buttonIndex != actionSheet.destructiveButtonIndex) {
+            [[NSUserDefaults standardUserDefaults]setObject:[actionSheet buttonTitleAtIndex:buttonIndex] forKey:@"Server"];
+            [[NSUserDefaults standardUserDefaults]synchronize];
+            [self loadPics];
+        } else {
+            [self presentViewController:[[GBMServerList alloc]init] animated:true completion:nil];
+        }
     }
     if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
-        exit(0);
+        [self.collection setDelegate:nil];
+        [self.collection setDataSource:nil];
+        [[[UIActionSheet alloc]initWithTitle:@"Sorry, this way you cannot use this application." delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil]showInView:self.view];
     }
     if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
-        a = [[UIActionSheet alloc]initWithTitle:@"Thanks for using GBBrowser mobile!\nIf you like it, please donate using the donate button in the About window :)\n\nTo dismiss the hints view, tap it once, it will not appear again (as well as these messages)" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
-        [a retain];
-        [a showInView:self.view];
-        [self performSelector:@selector(_welcomed) withObject:nil afterDelay:3];
+        //a = [[UIActionSheet alloc]initWithTitle:@"Thanks for using GBBrowser mobile!\n\nTo dismiss the hint, tap it once, it will not appear again (as well as these messages)" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+        //[a retain];
+        //[a showInView:self.view];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"NotFirstLaunch"];
+        //[self performSelector:@selector(_welcomed) withObject:nil afterDelay:1];
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if ([[alertView buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
+          [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"NotFirstLaunch"];
+    }
+    if ([[alertView buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
+        [[[UIAlertView alloc]initWithTitle:@"Sorry" message:@"You cannot use the application then" delegate:self cancelButtonTitle:nil otherButtonTitles:nil]show];
     }
 }
 -(void)_welcomed {
@@ -262,6 +298,10 @@
     return cell;
     
 }
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return YES;
+}
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }
@@ -269,7 +309,6 @@
     return currentPictures.count;
 }
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Select");
     NSMutableArray*samples = [NSMutableArray new];
     for (GBMPicture*pic in currentPictures) {
         MyPhoto*p = [[MyPhoto alloc]initWithImageURL:pic.sampleURL boardLink:pic.fullURL.absoluteString tags:pic.tags];//[NSString stringWithFormat:@"http://%@/index.php?page=post&s=view&id=%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"],pic.ident]];
@@ -306,7 +345,7 @@
 }
 
 - (IBAction)about:(id)sender {
-    [self presentViewController:[[GBMAbout alloc]init] animated:true completion:nil];
+  
 }
 
 - (IBAction)hideHints:(id)sender {
@@ -315,7 +354,7 @@
     self.hints.alpha = 0;
     [self.bottomBar setBarStyle:UIBarStyleBlackTranslucent];
     [UIView commitAnimations];
-    [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"NotFirstLaunch"];
+    
     [self.hints performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:0.5];
   
 }
