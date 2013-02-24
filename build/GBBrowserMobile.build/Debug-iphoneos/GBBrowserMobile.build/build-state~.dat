@@ -1,0 +1,1176 @@
+TGBBrowserMobile
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Info.plist GBBrowserMobile/GBBrowserMobile-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/GBBrowserMobile.app/ResourceRules.plist
+cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch.pth GBBrowserMobile/GBBrowserMobile-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile normal armv7
+cGenerateDSYMFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile
+cCopyStringsFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/en.lproj/InfoPlist.strings GBBrowserMobile/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default.png GBBrowserMobile/Default.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default@2x.png GBBrowserMobile/Default@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default-568h@2x.png GBBrowserMobile/Default-568h@2x.png
+cCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/en.lproj/GBMViewController.xib
+cCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/PictureCell.xib
+cCpResource GBBrowserMobile/test.jpg build/Debug-iphoneos/GBBrowserMobile.app/test.jpg
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_minimize_fullscreen_button.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_minimize_fullscreen_button.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/placehold.png GBBrowserMobile/placehold.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/hints.png GBBrowserMobile/hints.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right.png
+cCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.xib
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes.png GBBrowserMobile/itunes.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse.png GBBrowserMobile/browse.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes@2x.png GBBrowserMobile/itunes@2x.png
+cCpResource GBBrowserMobile/btn_donate_LG.gif build/Debug-iphoneos/GBBrowserMobile.app/btn_donate_LG.gif
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon.png Icon.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse@2x.png GBBrowserMobile/browse@2x.png
+cCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon@2x.png Icon@2x.png
+cProcessProductPackaging "/Users/tigra/Library/MobileDevice/Provisioning Profiles/717FD4F3-C5AA-428E-BC10-554B61CA11E3.mobileprovision" /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/tigra/Library/MobileDevice/Provisioning Profiles/717FD4F3-C5AA-428E-BC10-554B61CA11E3.mobileprovision" /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/embedded.mobileprovision
+cTouch /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent
+cCodeSign /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005102E2A90000000000000110
+t1359143593
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000510A6D4A00000000000001A7
+t1359637834
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000510A6D4A00000000000001E5
+t1359637834
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000510A6D4B000000000003AE00
+t1359637835
+s241152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510A6D4C0000000000322700
+t1359637836
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510A6D4D000000000062AD10
+t1359637837
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510A6D4C00000000000015F7
+t1359637836
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000510A6D4D00000000001DE790
+t1359637837
+s1959824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510A6D4D00000000003596B0
+t1359637837
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c00000000510A6D4D000000000000C120
+t1359637837
+s49440
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510A6D4D0000000000000E8D
+t1359637837
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510A6D4F00000000011BCDF0
+t1359637839
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000510A6D510000000000001B73
+t1359637841
+s7027
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/CrashReporter.framework/CrashReporter
+c0000000050C77DB4000000000006B764
+t1355251124
+s440164
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m
+c000000005110C6B800000000000092A8
+t1360053944
+s37544
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m
+c000000004F8D250800000000000026B4
+t1334650120
+s9908
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m
+c000000004F8D25080000000000000C84
+t1334650120
+s3204
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m
+c000000004F8D25080000000000001C7A
+t1334650120
+s7290
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m
+c000000004F8D250800000000000007FB
+t1334650120
+s2043
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m
+c000000004F8D25080000000000000699
+t1334650120
+s1689
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m
+c00000000510E78AF0000000000000570
+t1359902895
+s1392
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m
+c000000004F8D25080000000000000274
+t1334650120
+s628
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder.png
+c000000004F8D25080000000000001493
+t1334650120
+s5267
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder@2x.png
+c000000004F8D25080000000000007F24
+t1334650120
+s32548
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button.png
+c000000004F8D250800000000000000E1
+t1334650120
+s225
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button@2x.png
+c000000004F8D250800000000000001CC
+t1334650120
+s460
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left.png
+c000000004F8D2508000000000000012C
+t1334650120
+s300
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left@2x.png
+c000000004F8D250800000000000001E5
+t1334650120
+s485
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_minimize_fullscreen_button.png
+c000000004F8D250800000000000001FF
+t1334650120
+s511
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder.png
+c000000004F8D25080000000000002014
+t1334650120
+s8212
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder@2x.png
+c000000004F8D25080000000000003FA8
+t1334650120
+s16296
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right.png
+c000000004F8D2508000000000000012B
+t1334650120
+s299
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right@2x.png
+c000000004F8D250800000000000001CF
+t1334650120
+s463
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m
+c000000005110D4F40000000000001011
+t1360057588
+s4113
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m
+c000000004F8D250800000000000043BA
+t1334650120
+s17338
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m
+c000000004F8D25080000000000001018
+t1334650120
+s4120
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m
+c000000004E398B7D00000000000008E9
+t1312394109
+s2281
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBBrowserMobile-Prefix.pch
+c00000000510DEE6F000000000000014D
+t1359867503
+s333
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m
+c000000005110C0940000000000000592
+t1360052372
+s1426
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.xib
+c000000005110C0DF00000000000C7811
+t1360052447
+s817169
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m
+c00000000510E7F1E0000000000001659
+t1359904542
+s5721
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m
+c00000000510E768500000000000004BB
+t1359902341
+s1211
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m
+c00000000510E80CF00000000000006B0
+t1359904975
+s1712
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m
+c00000000510E751E000000000000088D
+t1359901982
+s2189
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m
+c000000005110D17F00000000000031CA
+t1360056703
+s12746
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m
+c0000000050D43566000000000000069A
+t1356084582
+s1690
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m
+c0000000050D435660000000000003165
+t1356084582
+s12645
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/PictureCell.xib
+c00000000510DFBD500000000000018A6
+t1359870933
+s6310
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m
+c00000000510E0EBC0000000000000174
+t1359875772
+s372
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/browse.png
+c00000000510E7626000000000000106A
+t1359902246
+s4202
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/browse@2x.png
+c00000000510E761B0000000000000F80
+t1359902235
+s3968
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/btn_donate_LG.gif
+c000000005110C0B300000000000006B2
+t1360052403
+s1714
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/en.lproj/GBMViewController.xib
+c000000005110CA41000000000005C144
+t1360054849
+s377156
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/en.lproj/InfoPlist.strings
+c00000000510DEE6F000000000000002D
+t1359867503
+s45
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/hints.png
+c00000000510E161400000000000771F5
+t1359877652
+s487925
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/itunes.png
+c00000000510E74730000000000001B73
+t1359901811
+s7027
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/itunes@2x.png
+c00000000510E746800000000000037B2
+t1359901800
+s14258
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m
+c00000000510DEE6F000000000000016B
+t1359867503
+s363
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/placehold.png
+c00000000510E100F0000000000002211
+t1359876111
+s8721
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/test.jpg
+c000000004E0DFEA40000000000043921
+t1309540004
+s276769
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/Icon.png
+c000000005110C4810000000000002395
+t1360053377
+s9109
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/Icon@2x.png
+c000000005110C54700000000000059E0
+t1360053575
+s23008
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+t1360057687
+s1190
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM
+t1360057686
+s102
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default-568h@2x.png
+t1360052681
+s7014
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default.png
+t1360052681
+s3688
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default@2x.png
+t1360052681
+s6316
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile
+t1360057687
+s373808
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBMAbout.nib
+t1360052683
+s3539
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon.png
+t1360053591
+s9039
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon@2x.png
+t1360053591
+s23035
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Info.plist
+t1360053591
+s1387
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/PictureCell.nib
+t1360052682
+s880
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/PkgInfo
+t1360053591
+s8
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/ResourceRules.plist
+t1360052680
+s485
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse.png
+t1360052683
+s4575
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse@2x.png
+t1360052683
+s4086
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/btn_donate_LG.gif
+t1360052683
+s1714
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder.png
+t1360052681
+s4407
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder@2x.png
+t1360052682
+s28697
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button.png
+t1360052682
+s250
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button@2x.png
+t1360052682
+s488
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left.png
+t1360052682
+s291
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left@2x.png
+t1360052682
+s326
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_minimize_fullscreen_button.png
+t1360052682
+s523
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder.png
+t1360052682
+s6756
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder@2x.png
+t1360052682
+s15135
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right.png
+t1360052682
+s295
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right@2x.png
+t1360052682
+s313
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/embedded.mobileprovision
+t1360052683
+s13330
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/en.lproj/GBMViewController.nib
+t1360056788
+s3687
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/en.lproj/InfoPlist.strings
+t1360052681
+s42
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/hints.png
+t1360052682
+s692761
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes.png
+t1360052682
+s7407
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes@2x.png
+t1360052682
+s18580
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/placehold.png
+t1360052682
+s12894
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/test.jpg
+t1360052681
+s276769
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBBrowserMobile.LinkFileList
+c000000005110D6730000000000000CCA
+t1360057971
+s3274
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o
+t2
+s0
+
+N/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/tigra/Library/MobileDevice/Provisioning Profiles/717FD4F3-C5AA-428E-BC10-554B61CA11E3.mobileprovision
+c00000000510CF0D50000000000003412
+t1359802581
+s13330
+
+N/var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch.pth
+t1360052681
+s4594356
+
+NGBBrowserMobile/GBBrowserMobile-Info.plist
+c000000005110C50300000000000006DE
+t1360053507
+s1758
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesefabdaf20dc1b641^c1ac14f30dc1b641^---0#1#0#--18"Check dependencies36"3211FF80-1C91-498A-8722-94F348BA6437-
+
+CCodeSign /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+s381750771.875872
+e381750772.125023
+r1
+xCodeSign
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CodeSign build/Debug-iphoneos/GBBrowserMobile.appa54ae0f30dc1b641^9a0720f40dc1b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/0000000000000000^935"CodeSign build/Debug-iphoneos/GBBrowserMobile.app    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/codesign --force --sign e71e015d062e944db9270ff9ba1167c18838b133 --resource-rules=/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/ResourceRules.plist --entitlements /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app36"C8D4E3E7-200A-402F-89F0-D754F1CF0491-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.393417
+e381750771.523900
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m38db64f30dc1b641^2f3186f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m0000000000000000^3693"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOCache/EGOCache.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOCache.o36"500A2902-508B-40EB-A9F2-CFC9DFC20EA4-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.423034
+e381750771.483638
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m4f756cf30dc1b641^d9ce7bf30dc1b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m0000000000000000^3789"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoadConnection.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoadConnection.o36"DD1DD581-4B8C-410C-9DE4-98E3A46664EB-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.484935
+e381750771.559798
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m9c507cf30dc1b641^234e8ff30dc1b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m0000000000000000^3741"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOImageLoader/EGOImageLoader.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOImageLoader.o36"CA714CFB-6631-4E5B-A56C-9CA08BD230B0-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.325644
+e381750771.421473
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m037853f30dc1b641^49f36bf30dc1b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m0000000000000000^3793"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoCaptionView.o36"7BB4CE47-9D31-4EF2-80A7-BFB3E366ED2C-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.370486
+e381750771.533705
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m00fd5ef30dc1b641^f7ab88f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m0000000000000000^3777"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoImageView.o36"D07DBCB7-5033-4C43-A07F-7FF711359B74-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.117299
+e381750771.249987
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m691c1ef30dc1b641^200c40f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m0000000000000000^3785"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoScrollView.o36"E806541A-71EC-44EC-8FAE-274C7B7A5407-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.251560
+e381750771.562503
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m:45:1: warning: autosynthesized property '_pageIndex' will use synthesized instance variable '__pageIndex', not existing instance variable '_pageIndex' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation EGOPhotoViewController
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h:82:39: note: property declared here
+o@property (nonatomic,assign)NSInteger _pageIndex;
+o                                      ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h:35:15: note: instance variable is declared here
+o    NSInteger _pageIndex;
+o              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m7a8a40f30dc1b641^f20a90f30dc1b641^-879"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m:45:1: warning: autosynthesized property '_pageIndex' will use synthesized instance variable '__pageIndex', not existing instance variable '_pageIndex' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation EGOPhotoViewController^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h:82:39: note: property declared here@property (nonatomic,assign)NSInteger _pageIndex;                                      ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h:35:15: note: instance variable is declared here    NSInteger _pageIndex;              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@135"Autosynthesized property '_pageIndex' will use synthesized instance variable '__pageIndex', not existing instance variable '_pageIndex'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@149"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h0000000000000000^81#38#81#38#2859#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@149"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h0000000000000000^34#14#34#14#1613#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@149"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m0000000000000000^44#0#44#0#1823#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@149"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m0000000000000000^3827"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOPhotoViewController.o36"042E701A-F4F1-461D-BAA4-EAC8BFAC2559-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.324965
+e381750771.392139
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m:29:17: warning: auto property synthesis will not synthesize property declared in a protocol [-Wobjc-protocol-property-synthesis]
+o@implementation EGOQuickPhoto
+o                ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOPhotoSource/EGOPhotoSource.h:67:39: note: property declared here
+o@property(nonatomic,retain) NSString *boardlink;
+o                                      ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.mda5653f30dc1b641^f06b64f30dc1b641^-547"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m:29:17: warning: auto property synthesis will not synthesize property declared in a protocol [-Wobjc-protocol-property-synthesis]@implementation EGOQuickPhoto                ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOPhotoSource/EGOPhotoSource.h:67:39: note: property declared here@property(nonatomic,retain) NSString *boardlink;                                      ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@75"Auto property synthesis will not synthesize property declared in a protocol-381750771#18446744073709551615#0#1(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@128"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOPhotoSource/EGOPhotoSource.h0000000000000000^66#38#66#38#1966#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@126"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m0000000000000000^28#16#28#16#1269#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@126"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m0000000000000000^3745"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhoto.o36"879E9F38-8C4E-48A0-B142-5455FEA9E3FA-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.116648
+e381750771.187205
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m7e001ef30dc1b641^ecf82ff30dc1b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m0000000000000000^3781"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EGOQuickPhotoSource.o36"0B24E1F0-8C6C-4ED8-81E0-E1464982FCD4-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.116649
+e381750771.175637
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:23:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+o        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];
+o                                                      ~~  ^~~~~~~
+o                                                      %s
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:40:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+o        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];
+o                                                      ~~  ^~~~~~~
+o                                                      %s
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:57:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+o        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];
+o                                                      ~~  ^~~~~~~
+o                                                      %s
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:75:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]
+o        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];
+o                                                      ~~  ^~~~~~~
+o                                                      %s
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.mb5ff1df30dc1b641^8e052df30dc1b641^-1462"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:23:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];                                                      ~~  ^~~~~~~                                                      %s/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:40:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];                                                      ~~  ^~~~~~~                                                      %s/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:57:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];                                                      ~~  ^~~~~~~                                                      %s/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m:75:59: warning: format specifies type 'int' but the argument has type 'char *' [-Wformat]        NSString *buf = [ NSString stringWithFormat:@"%c",Newchar];                                                      ~~  ^~~~~~~                                                      %s4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@62"Format specifies type 'int' but the argument has type 'char *'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^22#58#22#58#582#0#19"Format String Issue3(3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^22#58#22#65#582#0#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^22#54#22#56#578#2#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^22#54#22#56#578#2#-2@62"Format specifies type 'int' but the argument has type 'char *'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^39#58#39#58#1112#0#19"Format String Issue3(3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^39#58#39#65#1112#0#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^39#54#39#56#1108#2#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^39#54#39#56#1108#2#-2@62"Format specifies type 'int' but the argument has type 'char *'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^56#58#56#58#1614#0#19"Format String Issue3(3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^56#58#56#65#1614#0#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^56#54#56#56#1610#2#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^56#54#56#56#1610#2#-2@62"Format specifies type 'int' but the argument has type 'char *'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^74#58#74#58#2153#0#19"Format String Issue3(3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^74#58#74#65#2153#0#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^74#54#74#56#2149#2#3@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^74#54#74#56#2149#2#-0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m0000000000000000^3693"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o GBBrowserMobile/EncryptionModule.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/EncryptionModule.o36"648A5CB1-581D-434E-B52C-4F311854D698-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.535026
+e381750771.599811
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m8e2089f30dc1b641^43a999f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m0000000000000000^3645"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o GBBrowserMobile/GBMAbout.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAbout.o36"BF2411BB-9E1C-4BB8-AFC5-086E321C16D7-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.175446
+e381750771.287752
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m09182df30dc1b641^4eb649f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m0000000000000000^3681"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o GBBrowserMobile/GBMAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAppDelegate.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMAppDelegate.o36"31282930-DD89-4E7D-BE75-CEBE5FAEAB5B-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.602458
+e381750771.681068
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m50549af30dc1b641^f261aef30dc1b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m0000000000000000^3717"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o GBBrowserMobile/GBMOpenAsURLActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMOpenAsURLActivity.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMOpenAsURLActivity.o36"9D14617C-ED0E-4E1F-A8F0-2DBE5B3851B5-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.188454
+e381750771.250857
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'ident' will use synthesized instance variable '_ident', not existing instance variable 'ident' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation GBMPicture
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:29:40: note: property declared here
+o@property (nonatomic,retain)NSString * ident;
+o                                       ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:19:16: note: instance variable is declared here
+o    NSString * ident;
+o               ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'sampleURL' will use synthesized instance variable '_sampleURL', not existing instance variable 'sampleURL' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation GBMPicture
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:25:37: note: property declared here
+o@property (nonatomic,retain) NSURL *sampleURL;
+o                                    ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:15:12: note: instance variable is declared here
+o    NSURL *sampleURL;
+o           ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'fullURL' will use synthesized instance variable '_fullURL', not existing instance variable 'fullURL' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation GBMPicture
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:26:36: note: property declared here
+o@property (nonatomic,retain)NSURL *fullURL;
+o                                   ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:16:12: note: instance variable is declared here
+o    NSURL *fullURL;
+o           ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'thumbnailURL' will use synthesized instance variable '_thumbnailURL', not existing instance variable 'thumbnailURL' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation GBMPicture
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:27:36: note: property declared here
+o@property (nonatomic,retain)NSURL *thumbnailURL;
+o                                   ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:17:12: note: instance variable is declared here
+o    NSURL *thumbnailURL;
+o           ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'tags' will use synthesized instance variable '_tags', not existing instance variable 'tags' [-Wobjc-autosynthesis-property-ivar-name-match]
+o@implementation GBMPicture
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:28:39: note: property declared here
+o@property (nonatomic,retain) NSArray *tags;
+o                                      ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:18:14: note: instance variable is declared here
+o    NSArray *tags;
+o             ^
+o5 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0a6630f30dc1b641^1b4b40f30dc1b641^-3240"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'ident' will use synthesized instance variable '_ident', not existing instance variable 'ident' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBMPicture^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:29:40: note: property declared here@property (nonatomic,retain)NSString * ident;                                       ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:19:16: note: instance variable is declared here    NSString * ident;               ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'sampleURL' will use synthesized instance variable '_sampleURL', not existing instance variable 'sampleURL' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBMPicture^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:25:37: note: property declared here@property (nonatomic,retain) NSURL *sampleURL;                                    ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:15:12: note: instance variable is declared here    NSURL *sampleURL;           ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'fullURL' will use synthesized instance variable '_fullURL', not existing instance variable 'fullURL' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBMPicture^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:26:36: note: property declared here@property (nonatomic,retain)NSURL *fullURL;                                   ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:16:12: note: instance variable is declared here    NSURL *fullURL;           ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'thumbnailURL' will use synthesized instance variable '_thumbnailURL', not existing instance variable 'thumbnailURL' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBMPicture^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:27:36: note: property declared here@property (nonatomic,retain)NSURL *thumbnailURL;                                   ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:17:12: note: instance variable is declared here    NSURL *thumbnailURL;           ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m:11:1: warning: autosynthesized property 'tags' will use synthesized instance variable '_tags', not existing instance variable 'tags' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBMPicture^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:28:39: note: property declared here@property (nonatomic,retain) NSArray *tags;                                      ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:18:14: note: instance variable is declared here    NSArray *tags;             ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@120"Autosynthesized property 'ident' will use synthesized instance variable '_ident', not existing instance variable 'ident'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^28#39#28#39#787#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^18#15#18#15#411#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^10#0#10#0#180#0#14"Semantic Issue--2@132"Autosynthesized property 'sampleURL' will use synthesized instance variable '_sampleURL', not existing instance variable 'sampleURL'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^24#36#24#36#600#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^14#11#14#11#321#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^10#0#10#0#180#0#14"Semantic Issue--2@126"Autosynthesized property 'fullURL' will use synthesized instance variable '_fullURL', not existing instance variable 'fullURL'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^25#35#25#35#646#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^15#11#15#11#343#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^10#0#10#0#180#0#14"Semantic Issue--2@141"Autosynthesized property 'thumbnailURL' will use synthesized instance variable '_thumbnailURL', not existing instance variable 'thumbnailURL'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^26#35#26#35#690#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^16#11#16#11#363#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^10#0#10#0#180#0#14"Semantic Issue--2@117"Autosynthesized property 'tags' will use synthesized instance variable '_tags', not existing instance variable 'tags'-381750771#18446744073709551615#0#2(2@22"Property declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^27#38#27#38#742#0#14"Semantic Issue--2@34"Instance variable is declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^17#13#17#13#390#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^10#0#10#0#180#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m0000000000000000^3657"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o GBBrowserMobile/GBMPicture.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMPicture.o36"6DB67218-5B9E-40E6-9C31-E76D95BC2A69-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.561107
+e381750771.684934
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m:35:19: warning: assigning to 'id<HCDownloadViewControllerDelegate>' from incompatible type 'GBMSaveToItunesActivity *'
+o    dlvc.delegate = self;
+o                  ^ ~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.mb0fe8ff30dc1b641^a856aff30dc1b641^-277"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m:35:19: warning: assigning to 'id<HCDownloadViewControllerDelegate>' from incompatible type 'GBMSaveToItunesActivity *'    dlvc.delegate = self;                  ^ ~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@102"Assigning to 'id<HCDownloadViewControllerDelegate>' from incompatible type 'GBMSaveToItunesActivity *'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m0000000000000000^34#18#34#18#1347#0#14"Semantic Issue1(3@101"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m0000000000000000^34#20#34#24#1349#0#-0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m0000000000000000^3735"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o GBBrowserMobile/GBMSaveToItunesActivity.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMSaveToItunesActivity.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMSaveToItunesActivity.o36"74EE170F-F175-4EE4-941B-5B9DBDD9D485-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.176960
+e381750771.324547
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m:207:6: warning: 'UICollectionViewLayout' may not respond to 'setItemSize:'
+o    [self.collection.collectionViewLayout setItemSize:CGSizeMake(currentThumbSize, currentThumbSize)];
+o     ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m:282:44: warning: instance method '-initWithPhotoSource:pid:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o        EGOPhotoViewController *photoController = [[EGOPhotoViewController alloc] initWithPhotoSource:source pid:indexPath.row];
+o                                                  ^                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m75772df30dc1b641^551453f30dc1b641^-734"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m:207:6: warning: 'UICollectionViewLayout' may not respond to 'setItemSize:'    [self.collection.collectionViewLayout setItemSize:CGSizeMake(currentThumbSize, currentThumbSize)];     ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m:282:44: warning: instance method '-initWithPhotoSource:pid:' not found (return type defaults to 'id') [-Wobjc-method-access]        EGOPhotoViewController *photoController = [[EGOPhotoViewController alloc] initWithPhotoSource:source pid:indexPath.row];                                                  ^                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@58"'UICollectionViewLayout' may not respond to 'setItemSize:'-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m0000000000000000^206#5#206#5#7118#0#14"Semantic Issue--2@84"Instance method '-initWithPhotoSource:pid:' not found (return type defaults to 'id')-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m0000000000000000^281#43#281#43#11312#0#14"Semantic Issue1(3@95"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m0000000000000000^281#75#281#105#11344#27#-0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m0000000000000000^3699"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o GBBrowserMobile/GBMViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBMViewController.o36"EC8CA479-8CD3-490F-93D7-6EE6C0CB31C5-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.564066
+e381750771.683374
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m0d8c90f30dc1b641^e1f0aef30dc1b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m0000000000000000^3681"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o GBBrowserMobile/HCDownloadCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadCell.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadCell.o36"3B2F54C7-8D7F-4636-8523-A244B7541DDC-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.601079
+e381750771.715782
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.mc80a9af30dc1b641^083db7f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m0000000000000000^3741"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o GBBrowserMobile/HCDownloadViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/HCDownloadViewController.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/HCDownloadViewController.o36"45FCD3BD-B699-4145-8556-88007B0C849E-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.293300
+e381750771.369196
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m083d4bf30dc1b641^f78e5ef30dc1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m0000000000000000^3669"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o GBBrowserMobile/EGOPhotoViewer/MyPhoto.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhoto.o36"20CA8F55-EFB4-4515-81B4-730A55870AAB-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.251286
+e381750771.323669
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.md17a40f30dc1b641^3be452f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m0000000000000000^3705"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhotoSource.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/MyPhotoSource.o36"5CC691A4-AAC4-48A5-993B-1581BD5B2599-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.525445
+e381750771.601251
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation UIImageView (GBMPictureView)
+o                ^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m:11:17: warning: method 'picture:sampleBecameAvailable:' in protocol not implemented [-Wprotocol]
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:34:1: note: method 'picture:sampleBecameAvailable:' declared here
+o-(void)picture:(GBMPicture*)obj sampleBecameAvailable:(UIImage*)newImage;
+o^
+o/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.h:11:12: note: required for direct or indirect protocol 'GBMPictureDelegate'
+o@interface UIImageView (GBMPictureView)<GBMPictureDelegate>
+o           ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.mcdab86f30dc1b641^a5f799f30dc1b641^-884"/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation UIImageView (GBMPictureView)                ^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m:11:17: warning: method 'picture:sampleBecameAvailable:' in protocol not implemented [-Wprotocol]/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h:34:1: note: method 'picture:sampleBecameAvailable:' declared here-(void)picture:(GBMPicture*)obj sampleBecameAvailable:(UIImage*)newImage;^/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.h:11:12: note: required for direct or indirect protocol 'GBMPictureDelegate'@interface UIImageView (GBMPictureView)<GBMPictureDelegate>           ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-381750771#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m0000000000000000^10#16#10#16#228#0#14"Semantic Issue--2@67"Method 'picture:sampleBecameAvailable:' in protocol not implemented-381750771#18446744073709551615#0#2(2@53"Method 'picture:sampleBecameAvailable:' declared here-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h0000000000000000^33#0#33#0#917#0#14"Semantic Issue--2@61"Required for direct or indirect protocol 'GBMPictureDelegate'-381750771#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.h0000000000000000^10#11#10#11#230#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m0000000000000000^10#16#10#16#228#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m0000000000000000^3753"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o GBBrowserMobile/UIImageView+GBMPictureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/UIImageView+GBMPictureView.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/UIImageView+GBMPictureView.o36"91EA8AFB-C9D3-454D-827A-4CC9E55614BD-
+
+CCompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381750771.116558
+e381750771.173938
+r1
+xCompileC
+xbuild/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m01fa1df30dc1b641^304a2cf30dc1b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m0000000000000000^3621"CompileC build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o GBBrowserMobile/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-generated-files.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile-project-headers.hmap -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources/armv7 -I/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/DerivedSources -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.dia -c /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/main.m -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/main.o36"84120213-635C-4777-94D0-1E66A9CE3A3D-
+
+CCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.xib
+r0
+
+CCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/PictureCell.xib
+r0
+
+CCompileXIB /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/en.lproj/GBMViewController.xib
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default-568h@2x.png GBBrowserMobile/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default.png GBBrowserMobile/Default.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Default@2x.png GBBrowserMobile/Default@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon.png Icon.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Icon@2x.png Icon@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse.png GBBrowserMobile/browse.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/browse@2x.png GBBrowserMobile/browse@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_error_placeholder@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_error_placeholder@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_fullscreen_button@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_fullscreen_button@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_left@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_left@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_minimize_fullscreen_button.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_minimize_fullscreen_button.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_photo_placeholder@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_photo_placeholder@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/egopv_right@2x.png GBBrowserMobile/EGOPhotoViewer/Resources/egopv_right@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/hints.png GBBrowserMobile/hints.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes.png GBBrowserMobile/itunes.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/itunes@2x.png GBBrowserMobile/itunes@2x.png
+r0
+
+CCopyPNGFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/placehold.png GBBrowserMobile/placehold.png
+r0
+
+CCopyStringsFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/en.lproj/InfoPlist.strings GBBrowserMobile/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/GBBrowserMobile.app/ResourceRules.plist
+r0
+
+CCpResource GBBrowserMobile/btn_donate_LG.gif build/Debug-iphoneos/GBBrowserMobile.app/btn_donate_LG.gif
+r0
+
+CCpResource GBBrowserMobile/test.jpg build/Debug-iphoneos/GBBrowserMobile.app/test.jpg
+r0
+
+CGenerateDSYMFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile
+s381750771.770342
+e381750771.814154
+r1
+xGenerateDSYMFile
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Generate /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYMc845c5f30dc1b641^506dd0f30dc1b641^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM/0000000000000000^732"GenerateDSYMFile build/Debug-iphoneos/GBBrowserMobile.app.dSYM build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app.dSYM36"1F4EF51A-F467-43A8-AE31-75489D5D0950-
+
+CLd /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile normal armv7
+s381750771.722523
+e381750771.763598
+r1
+xLd
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile9413b9f30dc1b641^927ac3f30dc1b641^---0#0#0#--1341"Ld build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile normal armv7    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos -F/Users/tigra/Desktop/Coding/GBBrowserMobile -filelist /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/Objects-normal/armv7/GBBrowserMobile.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=5.0 -framework Twitter -framework AssetsLibrary -framework MessageUI -framework QuartzCore -framework CoreGraphics -framework UIKit -framework Foundation -framework CrashReporter -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/GBBrowserMobile36"519F79CA-C97F-4B09-9B37-42144E74AF7C-
+
+CProcessInfoPlistFile /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/Info.plist GBBrowserMobile/GBBrowserMobile-Info.plist
+r0
+
+CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GBBrowserMobile-Prefix-bvmmkiqudkfechaxqgwycxlmbxfj/GBBrowserMobile-Prefix.pch.pth GBBrowserMobile/GBBrowserMobile-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/tigra/Library/MobileDevice/Provisioning Profiles/717FD4F3-C5AA-428E-BC10-554B61CA11E3.mobileprovision" /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent
+s381750771.865523
+e381750771.867904
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection231"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent93a6ddf30dc1b641^4d2edef30dc1b641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent000000000080d041^867"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/tigra/Desktop/Coding/GBBrowserMobile/build/GBBrowserMobile.build/Debug-iphoneos/GBBrowserMobile.build/GBBrowserMobile.xcent36"67FBE427-084E-471E-BDDF-F57A45901738-
+
+CTouch /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+s381750771.853522
+e381750771.857989
+r1
+xTouch
+x/Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app3690daf30dc1b641^09a5dbf30dc1b641^---0#0#0#--472"Touch build/Debug-iphoneos/GBBrowserMobile.app    cd /Users/tigra/Desktop/Coding/GBBrowserMobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/iOSOpenDev/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/tigra/Desktop/Coding/GBBrowserMobile/build/Debug-iphoneos/GBBrowserMobile.app36"2A0ADC09-8672-47A8-B3C0-5D0AB4976468-
+

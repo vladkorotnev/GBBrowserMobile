@@ -2,7 +2,7 @@ dependencies: \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.m \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h \
-  /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.h \
+  /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMServerList.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/MyPhoto.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/EGOPhotoGlobal.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h \

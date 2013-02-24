@@ -101,13 +101,10 @@
 		8206BAFD16CA840900752AD2 /* GBB icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GBB icon.psd"; sourceTree = "<group>"; };
 		8206BAFE16CA866500752AD2 /* Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x~ipad.png"; sourceTree = "<group>"; };
 		8206BB0016CA867300752AD2 /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
-		8206BB0216CA868300752AD2 /* Retina4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retina4.png; sourceTree = "<group>"; };
-		8206BB0316CA868300752AD2 /* Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retina.png; sourceTree = "<group>"; };
 		8206BB0616CA870800752AD2 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		8206BB0816CA872000752AD2 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		8206BB0A16CA877300752AD2 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		8206BB0C16CA879400752AD2 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		8206BB0E16CA883200752AD2 /* iPadR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadR.png; sourceTree = "<group>"; };
 		8222BC9916BE69F6000ADA77 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		8231E9C816BE25EF00C5CA04 /* GBBrowserMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBBrowserMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8231E9CB16BE25EF00C5CA04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -268,9 +265,6 @@
 				8206BB0616CA870800752AD2 /* Default-Portrait@2x~ipad.png */,
 				8206BB0016CA867300752AD2 /* Icon~ipad.png */,
 				8206BAFE16CA866500752AD2 /* Icon@2x~ipad.png */,
-				8206BB0E16CA883200752AD2 /* iPadR.png */,
-				8206BB0216CA868300752AD2 /* Retina4.png */,
-				8206BB0316CA868300752AD2 /* Retina.png */,
 				8206BAFA16CA83F300752AD2 /* Default.png */,
 				8206BAF816CA83EE00752AD2 /* Default@2x.png */,
 				8206BAFC16CA840900752AD2 /* GBB icon appstore.png */,
@@ -642,7 +636,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -691,7 +685,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};

@@ -40,6 +40,8 @@
 -(BOOL)parseDocumentWithURL:(NSURL *)url {
     if (url == nil)
     {NSLog(@"Nil url");
+        self.countoftotal.title = @"Check server settings.";
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
         return NO;}
     NSLog(@"URL %@",url.absoluteString);
     // this is the parsing machine
@@ -51,8 +53,12 @@
     NSLog(@"Starting parse");
     // now parse the document
     BOOL ok = [xmlparser parse];
-    if (ok == NO)
+    if (ok == NO){
         self.countoftotal.title = @"Error loading.";
+        NSLog(@"%@",xmlparser.parserError.localizedDescription);
+        NSLog(@"%@",xmlparser.parserError.localizedFailureReason);
+    }
+        
     else
         NSLog(@"OK");
     
@@ -142,6 +148,8 @@
     currentPid = currentPid + 1;
     if (currentPid * 100 >= totalPosts) {
         NSLog(@"End!");
+        [[[UIAlertView alloc]initWithTitle:@"Sorry" message:@"It seems you have reached the end of the pages." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
+         self.countoftotal.title = [NSString stringWithFormat:@"%i of %i",currentPictures.count,totalPosts];
         return;
     }
     
@@ -196,8 +204,8 @@
 - (void)viewDidLoad
 {
     if ([[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]isEqualToString:@""] || [[NSUserDefaults standardUserDefaults]objectForKey:@"Server"] == nil) {
-         [[NSUserDefaults standardUserDefaults]setObject:@"Safebooru.org" forKey:@"Server"];
-        [[NSUserDefaults standardUserDefaults]setObject:@[@"Safebooru.org",@"Gelbooru.org"] forKey:@"allservers"];
+         [[NSUserDefaults standardUserDefaults]setObject:@"vladkorotnev.me/GBBrowserSample" forKey:@"Server"];
+        [[NSUserDefaults standardUserDefaults]setObject:@[@"vladkorotnev.me/GBBrowserSample"] forKey:@"allservers"];
         [[NSUserDefaults standardUserDefaults]synchronize];
     }
     
@@ -217,7 +225,7 @@
 -(void)viewDidAppear:(BOOL)animated {
     self.collection.pagingEnabled = [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
   // [[[NSArray alloc]init]addObject:@"a"];
-    if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
+  /*  if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
         {
             [[[UIAlertView alloc]initWithTitle:@"Warning" message:@"We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I DON'T agree" otherButtonTitles:@"I agree", nil]show];
@@ -228,8 +236,8 @@
             [[[UIActionSheet alloc]initWithTitle:@"Welcome to GBBrowser mobile!\n© vladkorotnev, 2013\n\nWarning! We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I agree" destructiveButtonTitle:@"I DON'T agree" otherButtonTitles:nil]showInView:self.view];
             // The device is an iPhone or iPod touch.
         }
-        
-    }
+   
+    }*/
 }
 - (void)didReceiveMemoryWarning
 {
@@ -256,14 +264,20 @@
             [[NSUserDefaults standardUserDefaults]synchronize];
             [self loadPics];
         } else {
-            [self presentViewController:[[GBMServerList alloc]init] animated:true completion:nil];
+            GBMServerList*ass = [[GBMServerList alloc]init];
+            if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+                [ass setModalPresentationStyle:UIModalPresentationFormSheet  ];
+                [ass setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+            }
+            
+            [self presentViewController:ass animated:true completion:nil];
         }
     }
-    if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
+   /* if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
         [self.collection setDelegate:nil];
         [self.collection setDataSource:nil];
         [[[UIActionSheet alloc]initWithTitle:@"Sorry, this way you cannot use this application." delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil]showInView:self.view];
-    }
+    }*/
     if ([[actionSheet buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
         //a = [[UIActionSheet alloc]initWithTitle:@"Thanks for using GBBrowser mobile!\n\nTo dismiss the hint, tap it once, it will not appear again (as well as these messages)" delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
         //[a retain];
@@ -274,12 +288,12 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if ([[alertView buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
+   /* if ([[alertView buttonTitleAtIndex:buttonIndex]isEqualToString:@"I agree"]) {
           [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"NotFirstLaunch"];
     }
     if ([[alertView buttonTitleAtIndex:buttonIndex]isEqualToString:@"I DON'T agree"]) {
         [[[UIAlertView alloc]initWithTitle:@"Sorry" message:@"You cannot use the application then" delegate:self cancelButtonTitle:nil otherButtonTitles:nil]show];
-    }
+    }*/
 }
 -(void)_welcomed {
     [a dismissWithClickedButtonIndex:111 animated:TRUE];

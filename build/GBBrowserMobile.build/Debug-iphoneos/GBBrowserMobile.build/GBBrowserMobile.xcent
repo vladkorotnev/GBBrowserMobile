@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>U5462T233P.com.vladkorotnev.GBBrowserMobile</string>
+	<string>UBUB5Q7433.com.vladkorotnev.GBBrowserMobile</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>U5462T233P.com.vladkorotnev.GBBrowserMobile</string>
+		<string>UBUB5Q7433.com.vladkorotnev.GBBrowserMobile</string>
 	</array>
 </dict>
 </plist>

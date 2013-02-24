@@ -19,4 +19,4 @@ dependencies: \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/EncryptionModule.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMViewController.h \
   /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMPicture.h \
-  /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMAbout.h
+  /Users/tigra/Desktop/Coding/GBBrowserMobile/GBBrowserMobile/GBMServerList.h

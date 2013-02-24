@@ -81,6 +81,7 @@
     [a show];
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if(buttonIndex == alertView.cancelButtonIndex) return;
     [_servers addObject:[alertView textFieldAtIndex:0].text];
     [[NSUserDefaults standardUserDefaults]setObject:_servers forKey:@"allservers"];
     [[NSUserDefaults standardUserDefaults]synchronize];

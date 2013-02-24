@@ -6,27 +6,55 @@
 	<dict>
 		<key>Default-568h@2x.png</key>
 		<data>
-		D8STS3mHDv2ya6HKCvP6jrq8eig=
+		hpehiPfXsLHGDpRjQqsFov91JNk=
+		</data>
+		<key>Default-Landscape@2x~ipad.png</key>
+		<data>
+		0OCQI27pVBMqlp5ziv2YVzH17CE=
+		</data>
+		<key>Default-Landscape~ipad.png</key>
+		<data>
+		775NIoRRyzsFilDXl1R0XE+i5+Q=
+		</data>
+		<key>Default-Portrait@2x~ipad.png</key>
+		<data>
+		IwOfdIXmzihJyrk38RkFYMHTUsE=
+		</data>
+		<key>Default-Portrait~ipad.png</key>
+		<data>
+		seAsv06MBY3AiM3ubsesxyNF9hI=
 		</data>
 		<key>Default.png</key>
 		<data>
-		g4VJVUY+xKlNSVSdT4q0Ss3mj9c=
+		GToT3zXssYDlZNB0FEUPqHMrFws=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		f+chbalD/cg0G6RzsOPbpHUYQAg=
+		gdJwEFrb3IK5qrk8HaapWqeVLKI=
 		</data>
 		<key>GBMAbout.nib</key>
 		<data>
 		8njxTFp4JabAYGzmReg/N+Jk4lM=
 		</data>
+		<key>GBMServerList.nib</key>
+		<data>
+		avZi6a69J+e/aoJzeyV9nTS/7/E=
+		</data>
 		<key>Icon.png</key>
 		<data>
-		0LQunkq9AGYt6+CAVe/aPg3RzVM=
+		3dO0oxvqoYQ3DpuScfEK3lB/YZo=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		0Z2K228zsOiM+iRX3FWGkVm1CIM=
+		/RG7Av6c65MBq3tRdt/9CLRdctY=
+		</data>
+		<key>Icon@2x~ipad.png</key>
+		<data>
+		neRMte6nmQIYUw2SdwTOYHkRrB8=
+		</data>
+		<key>Icon~ipad.png</key>
+		<data>
+		mjzKEY2uxjzJfn1jfIuLucqPheQ=
 		</data>
 		<key>PictureCell.nib</key>
 		<data>
@@ -94,11 +122,11 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		QaYtjuccl4ae22rOyXyDTX+qSls=
+		w3RuEWruNVCOyQ+9tMinaHQESPc=
 		</data>
 		<key>en.lproj/GBMViewController.nib</key>
 		<data>
-		iMWiwCk2SqmrO2mLPfaeJh6l9q8=
+		JyoDbU9GoF0ERmFKnnFTMzXaT60=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
