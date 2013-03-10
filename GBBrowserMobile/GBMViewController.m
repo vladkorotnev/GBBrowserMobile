@@ -18,7 +18,7 @@
 @implementation GBMViewController
 
  static int currentThumbSize=100;
-
+static bool didLoadSecondTime=false;
 - (void) loadPics {
      [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     NSLog(@"Trying to load");
@@ -73,6 +73,10 @@
 }
 
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && !didLoadSecondTime) {
+        didLoadSecondTime = true;
+        [self loadMorePics];
+    }
     NSLog(@"End");
     self.countoftotal.title = [NSString stringWithFormat:@"%i of %i",currentPictures.count,totalPosts];
     [self.collection reloadData];
@@ -222,22 +226,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self loadPics];
 }
--(void)viewDidAppear:(BOOL)animated {
-    self.collection.pagingEnabled = [[NSUserDefaults standardUserDefaults]boolForKey:@"paginate"];
-  // [[[NSArray alloc]init]addObject:@"a"];
-  /*  if (!([[NSUserDefaults standardUserDefaults]boolForKey:@"NotFirstLaunch"]==YES)) {
-        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-        {
-            [[[UIAlertView alloc]initWithTitle:@"Warning" message:@"We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I DON'T agree" otherButtonTitles:@"I agree", nil]show];
-            // The device is an iPad running iPhone 3.2 or later.
-        }
-        else
-        {
-            [[[UIActionSheet alloc]initWithTitle:@"Welcome to GBBrowser mobile!\n© vladkorotnev, 2013\n\nWarning! We do not have control over the pictures displayed in this application, neither Apple nor vladkorotnev software. The program is provided AS IS only for displaying the images from the server. Apple or vladkorotnev can't be held responsible for any damage, either mental or physical, done due to this application. Do you agree?" delegate:self cancelButtonTitle:@"I agree" destructiveButtonTitle:@"I DON'T agree" otherButtonTitles:nil]showInView:self.view];
-            // The device is an iPhone or iPod touch.
-        }
-   
-    }*/
+-(void)viewWillAppear:(BOOL)animated {
+    [self.bottomBar setBarStyle:UIBarStyleBlackTranslucent];
+
 }
 - (void)didReceiveMemoryWarning
 {
@@ -355,6 +346,7 @@
 }
 - (IBAction)loadMore:(id)sender {
     self.countoftotal.title=@"Loading...";
+    didLoadSecondTime=false;
     [self performSelector:@selector(loadMorePics) withObject:nil afterDelay:0.1];
 }
 
@@ -366,8 +358,7 @@
     [UIView beginAnimations:@"FadeOut" context:nil];
     [UIView setAnimationDuration:0.4];
     self.hints.alpha = 0;
-    [self.bottomBar setBarStyle:UIBarStyleBlackTranslucent];
-    [UIView commitAnimations];
+        [UIView commitAnimations];
     
     [self.hints performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:0.5];
   

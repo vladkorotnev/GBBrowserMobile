@@ -18,7 +18,7 @@
     [_viewController release];
     [super dealloc];
 }
-
+/*
 - (void) handleCrashReport {
     PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
     NSData *crashData;
@@ -83,7 +83,7 @@ finish:
         [self.window.rootViewController presentModalViewController:mailViewController animated:YES];
         [mailViewController release];
     }
-}
+}*/
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
@@ -91,16 +91,16 @@ finish:
     self.viewController = [[[GBMViewController alloc] initWithNibName:@"GBMViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
-    NSError *error;
+  //  PLCrashReporter *crashReporter = [PLCrashReporter sharedReporter];
+    //NSError *error;
     
     // Check if we previously crashed
-    if ([crashReporter hasPendingCrashReport])
-        [self handleCrashReport];
+   // if ([crashReporter hasPendingCrashReport])
+    //    [self handleCrashReport];
     
     // Enable the Crash Reporter
-    if (![crashReporter enableCrashReporterAndReturnError: &error])
-        NSLog(@"Warning: Could not enable crash reporter: %@", error);
+   // if (![crashReporter enableCrashReporterAndReturnError: &error])
+ //       NSLog(@"Warning: Could not enable crash reporter: %@", error);
     return YES;
 }
 

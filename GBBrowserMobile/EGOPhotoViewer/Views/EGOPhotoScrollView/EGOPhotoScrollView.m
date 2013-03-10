@@ -55,7 +55,7 @@
 - (void)zoomRectWithCenter:(CGPoint)center{
 	
 	if (self.zoomScale > 1.0f) {
-
+   
 		[((EGOPhotoImageView*)self.superview) killScrollViewZoom];
 	
 		return;

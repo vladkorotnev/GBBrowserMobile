@@ -417,7 +417,7 @@
 #pragma mark Bar/Caption Methods
 
 - (void)setStatusBarHidden:(BOOL)hidden animated:(BOOL)animated{
-	if (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad) return; 
+	if (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad) return;
 	
 	if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 3.2) {
 		
@@ -891,7 +891,7 @@
 
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-	
+//	NSLog(@"didScroll");
 	NSInteger _index = [self centerPhotoIndex];
 	if (_index >= [self.photoSource numberOfPhotos] || _index < 0) {
 		return;
@@ -912,7 +912,7 @@
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-	
+//NSLog(@"didEndDec");
 	NSInteger _index = [self centerPhotoIndex];
 	if (_index >= [self.photoSource numberOfPhotos] || _index < 0) {
 		return;
@@ -923,6 +923,7 @@
 }
 
 - (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+//NSLog(@"willBeginDec");
 	[self layoutScrollViewSubviews];
 }
 
