@@ -27,9 +27,14 @@ static bool didLoadSecondTime=false;
     [currentPictures removeAllObjects];
     [self.collection reloadData];
     NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString],currentPid ];
+    if ([[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"]) {
+        url = [NSString stringWithFormat:@"%@&tags=-comic",url];
+    }
     if(isInSearch) {
-        
-        url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
+        if (![[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"])
+            url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
+        else
+            url = [NSString stringWithFormat:@"%@+%@",url,curSearchRequest];
     }
     NSURL * t = [NSURL URLWithString:[url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     
@@ -162,9 +167,14 @@ static bool didLoadSecondTime=false;
         serv  = [NSString stringWithFormat:@"http://%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]];
     } else serv=[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"];
     NSString * url = [NSString stringWithFormat:@"%@//index.php?page=dapi&s=post&q=index&pid=%i",serv,currentPid ];
+    if ([[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"]) {
+        url = [NSString stringWithFormat:@"%@&tags=-comic",url];
+    }
     if(isInSearch) {
-        
-        url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
+        if (![[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"])
+            url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
+        else
+            url = [NSString stringWithFormat:@"%@+%@",url,curSearchRequest];
     }
     NSURL * t = [NSURL URLWithString:[url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     
@@ -223,9 +233,16 @@ static bool didLoadSecondTime=false;
     [self.collection.collectionViewLayout setItemSize:CGSizeMake(currentThumbSize, currentThumbSize)];
     currentPictures = [NSMutableArray new];
     [super viewDidLoad];
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)[[UIApplication sharedApplication]setStatusBarHidden:true];
 	// Do any additional setup after loading the view, typically from a nib.
     [self loadPics];
+
 }
+
+- (void)settingsDidChange {
+    [self loadPics];
+}
+
 -(void)viewWillAppear:(BOOL)animated {
     [self.bottomBar setBarStyle:UIBarStyleBlackTranslucent];
 
@@ -351,7 +368,15 @@ static bool didLoadSecondTime=false;
 }
 
 - (IBAction)about:(id)sender {
-  
+    GBMAboutViewController*a=[[GBMAboutViewController alloc]init];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+            [a setModalPresentationStyle:UIModalPresentationFormSheet];
+    } else {
+        [a setModalTransitionStyle:UIModalTransitionStylePartialCurl];
+    }
+    [a setDelegate:self];
+    
+    [self presentViewController:a animated:true completion:nil];
 }
 
 - (IBAction)hideHints:(id)sender {

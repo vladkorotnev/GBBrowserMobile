@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "GBMPicture.h"
 #import "GBMServerList.h"
-@interface GBMViewController : UIViewController<UIActionSheetDelegate,UISearchBarDelegate,UICollectionViewDataSource,UICollectionViewDelegate,NSXMLParserDelegate,UIAlertViewDelegate>
+#import "GBMAboutViewController.h"
+@interface GBMViewController : UIViewController<UIActionSheetDelegate,UISearchBarDelegate,UICollectionViewDataSource,UICollectionViewDelegate,NSXMLParserDelegate,UIAlertViewDelegate,GBMAboutViewNotificated>
 {
     NSInteger currentPid;
     bool isInSearch;

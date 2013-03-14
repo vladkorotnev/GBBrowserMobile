@@ -199,7 +199,7 @@
 		
 	}
 	
-	if(!_storedOldStyles) {
+/*	if(!_storedOldStyles) {
 		_oldStatusBarSyle = [UIApplication sharedApplication].statusBarStyle;
 		
 		_oldNavBarTintColor = [self.navigationController.navigationBar.tintColor retain];
@@ -213,7 +213,7 @@
 		
 		_storedOldStyles = YES;
 	}	
-	
+	*/
 	if ([self.navigationController isToolbarHidden] && (!_popover || ([self.photoSource numberOfPhotos] > 1))) {
 		[self.navigationController setToolbarHidden:NO animated:YES];
 	}
@@ -242,11 +242,11 @@
 - (void)viewWillDisappear:(BOOL)animated{
 	[super viewWillDisappear:animated];
 	
-	self.navigationController.navigationBar.barStyle = _oldNavBarStyle;
-	self.navigationController.navigationBar.tintColor = _oldNavBarTintColor;
-	self.navigationController.navigationBar.translucent = _oldNavBarTranslucent;
+//	self.navigationController.navigationBar.barStyle = _oldNavBarStyle;
+///	self.navigationController.navigationBar.tintColor = _oldNavBarTintColor;
+///	self.navigationController.navigationBar.translucent = _oldNavBarTranslucent;
 	
-	[[UIApplication sharedApplication] setStatusBarStyle:_oldStatusBarSyle animated:YES];
+	//[[UIApplication sharedApplication] setStatusBarStyle:_oldStatusBarSyle animated:YES];
 	
 	if(!_oldToolBarHidden) {
 		
@@ -350,7 +350,7 @@
 			[doneButton release];
 	//	}
 //	} else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
+	//[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
 //	}
 //#else
 //	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
@@ -418,17 +418,9 @@
 
 - (void)setStatusBarHidden:(BOOL)hidden animated:(BOOL)animated{
 	if (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad) return;
-	
-	if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 3.2) {
 		
-		[[UIApplication sharedApplication] setStatusBarHidden:hidden withAnimation:UIStatusBarAnimationFade];
+	//	[[UIApplication sharedApplication] setStatusBarHidden:hidden withAnimation:UIStatusBarAnimationFade];
 		
-	} else {
-#if __IPHONE_OS_VERSION_MAX_ALLOWED < 30200
-		[[UIApplication sharedApplication] setStatusBarHidden:hidden animated:animated];
-#endif
-	}
-
 }
 
 - (void)setBarsHidden:(BOOL)hidden animated:(BOOL)animated{
@@ -1044,11 +1036,7 @@ UIImageWriteToSavedPhotosAlbum(((EGOPhotoImageView*)[self.photoViews objectAtInd
         NSArray* dataToShare = @[picc,link];  // ...or whatever pieces of data you want to share.
         
         UIActivityViewController* activityViewController;
-       // if(!isFromCydia){
            activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new],[GBMSaveToItunesActivity new]]];
-        //} else {
-            //activityViewController =[[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:@[[GBMOpenAsURLActivity new]]];
-      //  }
         [self presentViewController:activityViewController animated:YES completion:^{}];
         return;
     }
