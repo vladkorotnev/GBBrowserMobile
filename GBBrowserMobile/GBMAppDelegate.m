@@ -101,7 +101,24 @@ finish:
     // Enable the Crash Reporter
    // if (![crashReporter enableCrashReporterAndReturnError: &error])
  //       NSLog(@"Warning: Could not enable crash reporter: %@", error);
+    
+    NSURL *urlToParse = [launchOptions objectForKey:UIApplicationLaunchOptionsURLKey];
+    if (urlToParse) {
+        [self application:application handleOpenURL:urlToParse];
+    }
     return YES;
+}
+-(void)application:(UIApplication*)app handleOpenURL:(NSURL *)url {
+    NSLog(@"Has to parse %@",url.absoluteString);
+    if (![url.absoluteString hasPrefix:@"gbbsearch://?"]) {
+        [[[UIAlertView alloc]initWithTitle:@"Invalid URL format" message:@"Use gbbsearch://?search_string instead." delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil]show];
+        return;
+    }
+    [self.viewController setInitialSearchString:[[[[url absoluteString]stringByReplacingOccurrencesOfString:@"gbbsearch://?" withString:@""]stringByReplacingOccurrencesOfString:@"%20" withString:@"_"]stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    [self.viewController.initialSearchString retain];
+    if (self.viewController.isReady) {
+        [self.viewController _checkForPassedSearch];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

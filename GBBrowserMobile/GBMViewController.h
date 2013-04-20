@@ -24,11 +24,12 @@
 @property (retain, nonatomic) IBOutlet UISearchBar *search;
 @property (retain, nonatomic) IBOutlet UIView *disableView;
 - (IBAction)hideHints:(id)sender;
-
+@property (retain,nonatomic) NSString* initialSearchString;
 @property (retain, nonatomic) IBOutlet UIButton *hints;
 @property (retain, nonatomic) IBOutlet UIBarButtonItem *countoftotal;
 - (IBAction)loadMore:(id)sender;
 - (IBAction)about:(id)sender;
+@property (nonatomic) bool isReady;
 @property (retain, nonatomic) IBOutlet UIToolbar *bottomBar;
 
 @end

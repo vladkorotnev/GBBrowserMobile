@@ -214,7 +214,28 @@ static bool didLoadSecondTime=false;
  [self.disableView removeFromSuperview];
     [self performSelector:@selector(loadPics) withObject:nil afterDelay:0.6];
 }
-
+-(void) _checkForPassedSearch {
+    if (self.initialSearchString) {
+        
+        isInSearch=true;
+        curSearchRequest=self.initialSearchString;
+        self.search.text=curSearchRequest;
+        self.initialSearchString=@"";
+        if (self.isReady) {
+            [self loadPics];
+        }
+    }
+}
+- (void)viewDidAppear:(BOOL)animated {
+   
+    [self _checkForPassedSearch];
+    self.isReady=true;
+    if (!animated) {
+        NSLog(@"Nonanimated appear — load pics");
+        [self loadPics];
+    }
+    
+}
 - (void)viewDidLoad
 {
     if ([[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]isEqualToString:@""] || [[NSUserDefaults standardUserDefaults]objectForKey:@"Server"] == nil) {
@@ -235,7 +256,7 @@ static bool didLoadSecondTime=false;
     [super viewDidLoad];
     if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)[[UIApplication sharedApplication]setStatusBarHidden:true];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self loadPics];
+ 
 
 }
 
