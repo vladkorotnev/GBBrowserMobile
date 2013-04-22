@@ -29,8 +29,8 @@
     download = [NSURL URLWithString:[activityItems objectAtIndex:1]];
     [download retain];
     dlvc = [[HCDownloadViewController alloc] init];
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    dlvc.downloadDirectory = [paths objectAtIndex:0]; // Get documents folder;
+   
+    dlvc.downloadDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]; // Get documents folder;
     NSLog(@"Download to %@",dlvc.downloadDirectory);
     dlvc.delegate = self;
     [dlvc retain];

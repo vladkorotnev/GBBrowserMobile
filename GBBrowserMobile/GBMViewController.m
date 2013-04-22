@@ -11,6 +11,29 @@
 #import "EGOPhotoGlobal.h"
 #import "MyPhotoSource.h"
 #import "UIImageView+GBMPictureView.h"
+
+@interface NSString (JRStringAdditions)
+
+- (BOOL)containsString:(NSString *)string;
+- (BOOL)containsString:(NSString *)string
+               options:(NSStringCompareOptions)options;
+
+@end
+
+@implementation NSString (JRStringAdditions)
+
+- (BOOL)containsString:(NSString *)string
+               options:(NSStringCompareOptions)options {
+    NSRange rng = [self rangeOfString:string options:options];
+    return rng.location != NSNotFound;
+}
+
+- (BOOL)containsString:(NSString *)string {
+    return [self containsString:string options:0];
+}
+
+@end
+
 @interface GBMViewController ()
 
 @end
@@ -26,7 +49,16 @@ static bool didLoadSecondTime=false;
  self.countoftotal.title=@"Loading...";
     [currentPictures removeAllObjects];
     [self.collection reloadData];
-    NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString],currentPid ];
+     NSString * url = @"";
+    NSString*serv=@"";
+    if ([[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]hasPrefix:@"http://"] || [[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]hasPrefix:@"https://"]) {
+        serv = [[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString];
+    } else
+        serv = [NSString stringWithFormat:@"http://%@",[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]];
+    if ([[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]containsString:@"yande.re"]) 
+        url = [NSString stringWithFormat:@"%@//post.xml?page=%i",serv,currentPid+1 ];
+     else
+     url = [NSString stringWithFormat:@"%@//index.php?page=dapi&s=post&q=index&pid=%i",serv,currentPid ];
     if ([[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"]) {
         url = [NSString stringWithFormat:@"%@&tags=-comic",url];
     }
@@ -167,6 +199,10 @@ static bool didLoadSecondTime=false;
         serv  = [NSString stringWithFormat:@"http://%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]];
     } else serv=[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"];
     NSString * url = [NSString stringWithFormat:@"%@//index.php?page=dapi&s=post&q=index&pid=%i",serv,currentPid ];
+    if ([[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]containsString:@"yande.re"])
+    url = [NSString stringWithFormat:@"%@//post.xml?page=%i",serv,currentPid+1 ];
+    else
+        url = [NSString stringWithFormat:@"%@//index.php?page=dapi&s=post&q=index&pid=%i",serv,currentPid ];
     if ([[NSUserDefaults standardUserDefaults]boolForKey:@"noComics"]) {
         url = [NSString stringWithFormat:@"%@&tags=-comic",url];
     }
