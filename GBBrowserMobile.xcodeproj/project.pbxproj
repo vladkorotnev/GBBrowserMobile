@@ -69,6 +69,7 @@
 		8231EA4D16BE47A000C5CA04 /* placehold.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA4C16BE479F00C5CA04 /* placehold.png */; };
 		8231EA4F16BE4DA500C5CA04 /* hints.png in Resources */ = {isa = PBXBuildFile; fileRef = 8231EA4E16BE4DA400C5CA04 /* hints.png */; };
 		8231EA6016BE55AE00C5CA04 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231EA5F16BE55AE00C5CA04 /* AssetsLibrary.framework */; };
+		823CEC7317227005000E775B /* GBMDakimakuraActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 823CEC7217227005000E775B /* GBMDakimakuraActivity.m */; };
 		82D95B5B16F062E000A2A42A /* GBMAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D95B5916F062E000A2A42A /* GBMAboutViewController.m */; };
 		82D95B5C16F062E000A2A42A /* GBMAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D95B5A16F062E000A2A42A /* GBMAboutViewController.xib */; };
 		82D95B5E16F0634400A2A42A /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D95B5D16F0634400A2A42A /* about.png */; };
@@ -165,6 +166,8 @@
 		8231EA4C16BE479F00C5CA04 /* placehold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placehold.png; sourceTree = "<group>"; };
 		8231EA4E16BE4DA400C5CA04 /* hints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hints.png; sourceTree = "<group>"; };
 		8231EA5F16BE55AE00C5CA04 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		823CEC7117227005000E775B /* GBMDakimakuraActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMDakimakuraActivity.h; sourceTree = "<group>"; };
+		823CEC7217227005000E775B /* GBMDakimakuraActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMDakimakuraActivity.m; sourceTree = "<group>"; };
 		82D95B5816F062E000A2A42A /* GBMAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBMAboutViewController.h; path = ../GBMAboutViewController.h; sourceTree = "<group>"; };
 		82D95B5916F062E000A2A42A /* GBMAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBMAboutViewController.m; path = ../GBMAboutViewController.m; sourceTree = "<group>"; };
 		82D95B5A16F062E000A2A42A /* GBMAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GBMAboutViewController.xib; path = ../GBMAboutViewController.xib; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 				8206AAAA16BEACD300543D25 /* GBMOpenAsURLActivity.m */,
 				8206AA9716BEA3D700543D25 /* GBMSaveToItunesActivity.h */,
 				8206AA9816BEA3D700543D25 /* GBMSaveToItunesActivity.m */,
+				823CEC7117227005000E775B /* GBMDakimakuraActivity.h */,
+				823CEC7217227005000E775B /* GBMDakimakuraActivity.m */,
 			);
 			name = Activities;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 				8206AAAB16BEACD300543D25 /* GBMOpenAsURLActivity.m in Sources */,
 				8206BAEC16CA770300752AD2 /* GBMServerList.m in Sources */,
 				82D95B5B16F062E000A2A42A /* GBMAboutViewController.m in Sources */,
+				823CEC7317227005000E775B /* GBMDakimakuraActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

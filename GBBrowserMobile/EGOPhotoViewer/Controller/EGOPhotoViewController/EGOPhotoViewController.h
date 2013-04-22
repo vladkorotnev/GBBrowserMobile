@@ -29,6 +29,7 @@
 #import "EGOPhotoGlobal.h"
 #import "GBMSaveToItunesActivity.h"
 #import "GBMOpenAsURLActivity.h"
+#import "GBMDakimakuraActivity.h"
 #import <Twitter/Twitter.h>
 @class EGOPhotoImageView, EGOPhotoCaptionView;
 @interface EGOPhotoViewController : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate> {

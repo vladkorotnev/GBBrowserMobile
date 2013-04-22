@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GBBrowserMobile/GBMViewController.m"
-         timestampString = "388132578.6489"
+         timestampString = "388343634.314161"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "250"
-         endingLineNumber = "250"
+         startingLineNumber = "286"
+         endingLineNumber = "286"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
