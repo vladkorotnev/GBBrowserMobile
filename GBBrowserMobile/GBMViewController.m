@@ -187,7 +187,7 @@ static bool didLoadSecondTime=false;
     NSLog(@"Trying to load more");
  self.countoftotal.title=@"Loading...";
     currentPid = currentPid + 1;
-    if (currentPid * 100 >= totalPosts) {
+    if (currentPid * ([[[[NSUserDefaults standardUserDefaults]objectForKey:@"Server"]lowercaseString]containsString:@"yande.re"]? 16:100) >= totalPosts) {
         NSLog(@"End!");
         [[[UIAlertView alloc]initWithTitle:@"Sorry" message:@"It seems you have reached the end of the pages." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
          self.countoftotal.title = [NSString stringWithFormat:@"%i of %i",currentPictures.count,totalPosts];
